@@ -1,0 +1,95 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.head1 {
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.counter-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 320px;
+  width: 100%;
+}
+
+.display-input {
+  width: 100%;
+  height: 50px;
+  font-size: 2rem;
+  color: #333;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-group .btn {
+  width: 90px;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#btn1 {
+  background-color: #e71b1b;
+}
+
+#btn2 {
+  background-color: #f09a19;
+}
+
+#btn3 {
+  background-color: #0dee19;
+}
+
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.custom-input {
+  width: 180px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.increment-btn {
+  background-color: #0e7ad3;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
